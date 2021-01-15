@@ -1,0 +1,16 @@
+<main class="container">
+<div class="page-header px-3 py-3 mr-auto text-center">
+  <h1 class="display-4">Angular Bootcamp January 2021</h1>
+  <p class="lead">
+    In this bootcamp January 2021.We are making to lern how to create a professional web development.we will start from beginnig level,
+     but we will take our level at any enterprice level software development.
+  </p>
+
+</div>
+  <div class="card-deck">
+    <div class="card shadow-sm mb-4" *ngFor="let card of cardlist">
+      <app-card [data]="card" ></app-card>
+    </div>
+
+  </div>
+</main>
